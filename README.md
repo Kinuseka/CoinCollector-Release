@@ -15,8 +15,14 @@ Create config.json
         "ERROR": 3600,
         "COIN": 10800
     },
-   "ADMIN": "your user discord id for pinging during error or can leave empty"
+   "ADMIN": "your_admin_user_id"
 }
+```
+```
+WEBHOOK = Your channel webhook to send message logs on
+USERNAME_PASS = Your account details on hanime.tv
+TIMEOUT = Leave it as is
+ADMIN = Your user id on discord, used for pinging you when an error occurs on the program. You can leave it empty as well.
 ```
 
 Run:
